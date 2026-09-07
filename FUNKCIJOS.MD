@@ -1,6 +1,6 @@
 ## 🎬 25 funkcijos
  
- ### 👤 1 žmogus – Klientų ir filmų peržiūra
+ ### 👤 Domantas Lopatovas – Klientų ir filmų peržiūra
  
  1. Peržiūrėti filmų sąrašą
 2. Ieškoti filmo pagal pavadinimą
@@ -12,7 +12,7 @@
  
 ---
  
- ### 🎬 2 žmogus – Filmų valdymas
+ ### 🎬 Gustavas Bliuva – Filmų valdymas
  
  6. Pridėti filmą
 7. Redaguoti filmo informaciją
@@ -24,7 +24,7 @@
  
 ---
  
- ### 🕐 3 žmogus – Seansų valdymas
+ ### 🕐 Nojus Žeimys – Seansų valdymas
  
  11. Sukurti seansą
 12. Redaguoti seansą
@@ -47,7 +47,7 @@ Sala 1
  
 ---
  
- ### 🎟️ 4 žmogus – Bilietai ir rezervacijos
+ ### 🎟️ Arminas Balčius – Bilietai ir rezervacijos
  
  16. Peržiūrėti laisvas ir užimtas vietas
 17. Pasirinkti konkrečią vietą
@@ -69,7 +69,7 @@ Galutinė kaina = 8.80 €
  
 ---
  
- ### 🏢 5 žmogus – Administravimas ir statistika
+ ### 🏢 Laurynas Barzdenys – Administravimas ir statistika
  
  21. Pridėti ir redaguoti kino salę
 22. Valdyti salės sėdimų vietų išdėstymą
@@ -100,8 +100,6 @@ Bendra pajamų suma: 3 624 €
  
  # 🔥 Kurios funkcijos jau yra „advanced“?
  
- Aš specialiai įdėčiau bent **6 tokias**, kad dėstytojas matytų, jog sistema ne vien duomenis į DB įrašo:
- 
  - **Filmo įvertinimo vidurkio skaičiavimas**
 - **Filmo rodymo statuso nustatymas pagal datas**
 - **Seansų laiko susikirtimo tikrinimas**
@@ -110,12 +108,8 @@ Bendra pajamų suma: 3 624 €
 - **Pajamų skaičiavimas**
 - **Populiariausio filmo nustatymas**
  
- Ir šitas man patinka labiausiai, nes **25 funkcijos vis dar išlieka pakankamai lengvos**, bet jau turite tikros verslo logikos.
- 
  ### Dar vieną advanced funkciją galima pridėti vietoj paprasto „žanro priskyrimo“:
  
  **„Rekomenduoti klientui filmus pagal jo žiūrėtų filmų žanrus ir įvertinimus.“**
  
  Pvz. klientas daugiausiai žiūri `Action` ir `Sci-Fi`, todėl sistema jam parodo aukščiausiai įvertintus šių žanrų filmus.
- 
- Šita jau būtų **rimčiausia funkcija projekte**, jei norit vienos, kurią galėtumėt per gynimą parodyti kaip „o čia mūsų sudėtingesnė sistemos dalis“.
