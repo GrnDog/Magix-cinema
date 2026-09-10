@@ -1,15 +1,27 @@
 ## 🎬 25 funkcijos
  
- ### 👤 Domantas Lopatovas – Klientų ir filmų peržiūra
  
- 1. Peržiūrėti filmų sąrašą
-2. Ieškoti filmo pagal pavadinimą
-3. Filtruoti filmus pagal žanrą, kalbą ir amžiaus cenzą
-4. Peržiūrėti filmo informaciją
-5. **Apskaičiuoti filmo įvertinimo vidurkį pagal klientų įvertinimus**
- 
- > Pvz. 5 žmonės įvertino filmą: `5, 4, 5, 3, 4` → sistema apskaičiuoja `4.2 / 5`.
- 
+###👤 Domantas Lopatevas – Klientų ir filmų peržiūra
+1.	Peržiūrėti filmų sąrašą
+2.	Ieškoti filmo pagal pavadinimą
+3.	Filtruoti filmus pagal žanrą, kalbą ir amžiaus cenzą
+4.	Peržiūrėti išsamią filmo informaciją
+    o	Pagrindiniai duomenys gaunami iš sistemos DB
+    o	Aprašymas, plakatas, aktoriai ir anonsas gaunami iš TMDB API
+    o	Tinkamas TMDB filmas parenkamas pagal pavadinimą ir išleidimo metus
+    o	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
+5.	Peržiūrėti filmo atsiliepimus
+6.	Parašyti filmo atsiliepimą ir skirti 1–5 balų įvertinimą
+   o	Atsiliepimą gali rašyti tik prisijungęs klientas
+   o	Vienas klientas vienam filmui gali pateikti tik vieną įvertinimą
+   o	Klientas gali redaguoti tik savo atsiliepimą
+   o	Klientas gali pašalinti tik savo atsiliepimą
+7.	Apskaičiuoti filmo įvertinimo vidurkį pagal klientų įvertinimus
+   o	Naudojami visi klientų skirti įvertinimai
+   o	Pakeitus įvertinimą, vidurkis perskaičiuojamas
+   o	Pašalinus įvertinimą, vidurkis perskaičiuojamas
+   o	Rezultatas pateikiamas vieno skaičiaus po kablelio tikslumu, pvz. 4,2 iš 5
+
 ---
  
  ### 🎬 Gustavas Bliuva – Filmų valdymas
