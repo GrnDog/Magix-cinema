@@ -6,21 +6,21 @@
 2.	Ieškoti filmo pagal pavadinimą
 3.	Filtruoti filmus pagal žanrą, kalbą ir amžiaus cenzą
 4.	Peržiūrėti išsamią filmo informaciją:
-    #	Pagrindiniai duomenys gaunami iš sistemos DB
-    #	Aprašymas, plakatas, aktoriai ir anonsas gaunami iš TMDB API
-    #	Tinkamas TMDB filmas parenkamas pagal pavadinimą ir išleidimo metus
-    #	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
+    *	Pagrindiniai duomenys gaunami iš sistemos DB
+    *	Aprašymas, plakatas, aktoriai ir anonsas gaunami iš TMDB API
+    *	Tinkamas TMDB filmas parenkamas pagal pavadinimą ir išleidimo metus
+    *	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
 5.	Peržiūrėti filmo atsiliepimus
 6.	Parašyti filmo atsiliepimą ir skirti 1–5 balų įvertinimą
-   o	Atsiliepimą gali rašyti tik prisijungęs klientas
-   o	Vienas klientas vienam filmui gali pateikti tik vieną įvertinimą
-   o	Klientas gali redaguoti tik savo atsiliepimą
-   o	Klientas gali pašalinti tik savo atsiliepimą
+   *	Atsiliepimą gali rašyti tik prisijungęs klientas
+   *	Vienas klientas vienam filmui gali pateikti tik vieną įvertinimą
+   *	Klientas gali redaguoti tik savo atsiliepimą
+   *	Klientas gali pašalinti tik savo atsiliepimą
 7.	Apskaičiuoti filmo įvertinimo vidurkį pagal klientų įvertinimus
-   o	Naudojami visi klientų skirti įvertinimai
-   o	Pakeitus įvertinimą, vidurkis perskaičiuojamas
-   o	Pašalinus įvertinimą, vidurkis perskaičiuojamas
-   o	Rezultatas pateikiamas vieno skaičiaus po kablelio tikslumu, pvz. 4,2 iš 5
+   *	Naudojami visi klientų skirti įvertinimai
+   *	Pakeitus įvertinimą, vidurkis perskaičiuojamas
+   *	Pašalinus įvertinimą, vidurkis perskaičiuojamas
+   *	Rezultatas pateikiamas vieno skaičiaus po kablelio tikslumu, pvz. 4,2 iš 5
 
 ---
  
