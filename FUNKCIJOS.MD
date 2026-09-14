@@ -5,11 +5,11 @@
 1.	Peržiūrėti filmų sąrašą
 2.	Ieškoti filmo pagal pavadinimą
 3.	Filtruoti filmus pagal žanrą, kalbą ir amžiaus cenzą
-4.	Peržiūrėti išsamią filmo informaciją
-    o	Pagrindiniai duomenys gaunami iš sistemos DB
-    o	Aprašymas, plakatas, aktoriai ir anonsas gaunami iš TMDB API
-    o	Tinkamas TMDB filmas parenkamas pagal pavadinimą ir išleidimo metus
-    o	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
+4.	Peržiūrėti išsamią filmo informaciją:
+    #	Pagrindiniai duomenys gaunami iš sistemos DB
+    #	Aprašymas, plakatas, aktoriai ir anonsas gaunami iš TMDB API
+    #	Tinkamas TMDB filmas parenkamas pagal pavadinimą ir išleidimo metus
+    #	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
 5.	Peržiūrėti filmo atsiliepimus
 6.	Parašyti filmo atsiliepimą ir skirti 1–5 balų įvertinimą
    o	Atsiliepimą gali rašyti tik prisijungęs klientas
