@@ -12,15 +12,15 @@
     *	Nepasiekiant TMDB API, rodoma sistemos DB saugoma informacija
 5.	Peržiūrėti filmo atsiliepimus
 6.	Parašyti filmo atsiliepimą ir skirti 1–5 balų įvertinimą
-   *	Atsiliepimą gali rašyti tik prisijungęs klientas
-   *	Vienas klientas vienam filmui gali pateikti tik vieną įvertinimą
-   *	Klientas gali redaguoti tik savo atsiliepimą
-   *	Klientas gali pašalinti tik savo atsiliepimą
+    *	Atsiliepimą gali rašyti tik prisijungęs klientas
+    *	Vienas klientas vienam filmui gali pateikti tik vieną įvertinimą
+    *	Klientas gali redaguoti tik savo atsiliepimą
+    *	Klientas gali pašalinti tik savo atsiliepimą
 7.	Apskaičiuoti filmo įvertinimo vidurkį pagal klientų įvertinimus
-   *	Naudojami visi klientų skirti įvertinimai
-   *	Pakeitus įvertinimą, vidurkis perskaičiuojamas
-   *	Pašalinus įvertinimą, vidurkis perskaičiuojamas
-   *	Rezultatas pateikiamas vieno skaičiaus po kablelio tikslumu, pvz. 4,2 iš 5
+    *	Naudojami visi klientų skirti įvertinimai
+    *	Pakeitus įvertinimą, vidurkis perskaičiuojamas
+    *	Pašalinus įvertinimą, vidurkis perskaičiuojamas
+    *	Rezultatas pateikiamas vieno skaičiaus po kablelio tikslumu, pvz. 4,2 iš 5
 
 ---
  
