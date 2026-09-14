@@ -1,7 +1,7 @@
 ## 🎬 25 funkcijos
  
  
-###👤 Domantas Lopatevas – Klientų ir filmų peržiūra
+ ###👤 Domantas Lopatevas – Klientų ir filmų peržiūra
 1.	Peržiūrėti filmų sąrašą
 2.	Ieškoti filmo pagal pavadinimą
 3.	Filtruoti filmus pagal žanrą, kalbą ir amžiaus cenzą
